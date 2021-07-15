@@ -5,7 +5,7 @@ function Counter() {
     //The counter can be initialised with a certain value. 
     // If no value is present at initialisation then the counter will start at 1.
     const initialCounter = 1;
-    const maxCounter = 1000;
+    const maxCounter = 1000; 
     const [counter, setCounter] = useState(initialCounter)
     useEffect(() => {
         // Condition 2
